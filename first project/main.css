@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  #monogramimg {
+    padding: 5px;
+   
+  }
+  
+  #monogram {
+    width: 100px;
+  }
+  
+  #menuoptions {
+    display: flex;
+  }
+  
+  .menuitems {
+    margin-right: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    margin-left: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  #brahmaphoto {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 50px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 10px;
+  }
+  
+  .photos {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  #table{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin:12px 12px 12px 12px;
+    background-color: antiquewhite;
+  }
+  #tablebody{
+    border-color: solid;
+    border-width: 2px;
+    border-style: double;
+  }
+  tr{
+    border-color: black;
+    border-style: solid;
+  }
+  td{
+    border: 1px solid black;
+    padding: 8px;
+  }
